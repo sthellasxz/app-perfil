@@ -41,3 +41,6 @@ const app = createApp(App)
 router.isReady().then(() => {
   app.mount('#app');
 });
+
+import { defineCustomElements } from '@ionic/pwa-elements/loader'
+defineCustomElements(window)
