@@ -1,0 +1,7 @@
+{
+  "name": "app-perfil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
